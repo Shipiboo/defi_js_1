@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    padding:0;
+   }
+
+.contain_flex {
+        display: flex;
+        background-color: hsl(0, 100%, 74%) ;
+        width: 100vw;
+        height: 100vh;
+        background-image:url(/ressources/bg-intro-desktop.png) ;}
+
+h1{
+font-size: 50px;
+color: aliceblue;
+}
+
+
+.paragraphe{
+align-items:flex-start;
+font-size: 16px;
+color: aliceblue;
+
+}
+
+.left_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column; 
+    width:50%;
+    padding: 200px 200px 200px 200px;
+    
+}
+ 
+.right_container_form  {
+
+}
+
+
+
+
+
