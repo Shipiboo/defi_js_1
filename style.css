@@ -2,7 +2,8 @@ body {
     margin:0;
     padding:0;
     font-family: 'Poppins', sans-serif;
-   }
+    color: aliceblue;
+}
 
 .contain_flex {
         display: flex;
@@ -14,15 +15,12 @@ body {
 
 h1{
 font-size: 50px;
-color: aliceblue;
 }
 
 
 .paragraphe{
 align-items:flex-start;
 font-size: 16px;
-color: aliceblue;
-
 }
 
 .left_container {
@@ -32,14 +30,110 @@ color: aliceblue;
     box-sizing: border-box;
     flex-direction: column; 
     width:50%;
-    padding: 200px 200px 200px 200px;
-    
+    padding: 200px 200px 200px 200px;   
 }
- 
-.right_container_title  {
-    
 
+
+/* container droite titre, formulaire */
+
+.right_container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
+
+.right_container_title  {
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(248, 32%, 49%);
+    padding: 0 100px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:0px 5px  hsl(249, 10%, 26%) ;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.right_container_title span{
+    font-weight: 800;
+}
+
+.right_container_form{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.terms{
+    font-size: 12px;
+    color: rgb(172, 170, 170);
+    text-align: center;
+}
+
+.terms span{
+    color: red;
+}
+
+.form_width {
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    font-weight: 600;
+}
+
+#msg_alert {
+    color:#FF5466;
+    text-align: start;
+    font-size: 12px;
+    text-indent: 30px;
+    display: none;      
+}
+
+#msg_alert:invalid{
+	 border:1px solid red;
+}
+
+#msg_alerte:not(:focus):invalid ~ span{
+    display: unset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    padding: 15px 200px;
+    background-color: hsl(154, 59%, 51%);
+    border: solid 1px  hsl(154, 59%, 51%);
+    border-radius: 5px;
+    box-shadow:0px 3px  hsl(0, 1%, 72%) ;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 
 
 
