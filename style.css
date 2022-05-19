@@ -1,14 +1,16 @@
 body {
     margin:0;
     padding:0;
+    font-family: 'Poppins', sans-serif;
    }
 
 .contain_flex {
         display: flex;
         background-color: hsl(0, 100%, 74%) ;
         width: 100vw;
-        height: 100vh;
-        background-image:url(/ressources/bg-intro-desktop.png) ;}
+        height: auto;
+        background-image:url(/ressources/bg-intro-desktop.png) ;
+}
 
 h1{
 font-size: 50px;
@@ -34,7 +36,8 @@ color: aliceblue;
     
 }
  
-.right_container_form  {
+.right_container_title  {
+    
 
 }
 
