@@ -14,38 +14,41 @@
             <p>See how experience developers salve problems in real-time. Watching scripted tutorials is grat, but understanding how developers think is invaluable.</p>
         </div>
         <div class="right_container">
-            <div class="right_container_title">
-                <h2>try it free 7 days <span>then $20/mo. thereafter</span></h2>
+            <div class="right_container">
+                <h2>Try it free 7 days <span> then $20/mo.thereafter </span></h2>
             </div>
             <div class="right_container_form">
-                <form action="/page-traitement-donnees" method="post">
-                    <div>
-                        <label for="First_name"></label>
-                        <input type="text" id="First_name" name="First_name" placeholder="First Name" required>
-                        <p id="msg_alert">First name cannot be empty</p>
-                    </div>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div clas="background">
 
-                    <div>
-                        <label for="Last_name"></label>
-                        <input type="text" id="Last_name" name="Last_name" placeholder="Last Name" required>
-                        <p id="msg_alert">Last name cannot be empty</p>
-                    </div>
+                        <div>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name">
+                            <p id="msg_alert">First Name cannot be empty</p>
+                        </div>
 
-                    <div>
-                        <label for="Email_Address"></label>
-                        <input type="email" id="Email_Address" name="Email_Address" placeholder="Email Adress" required>
-                        <p id="msg_alert">Looks like this is not on email</p>
+                        <div>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                            <p id="msg_alert">Last Name cannot be empty</p>
+                        </div>
+
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email">
+                            <p id="msg_alert">Looks like this is not an email</p>
+                        </div>
+                        
+                        <div>
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass" name="password"
+                                minlength="" required>
+                        </div>
+
+                         <button type="submit">claim your free trial</button>
                     </div>
-                
-                    <div>
-                        <label for="pass"></label>
-                        <input type="password" id="pass" name="password" placeholder="Password"required>
-                    </div>
-                
-                    <input type="submit" value="claim tour free trial">
                 </form>
-                
-                <h3>By clicking the button, tou are agreeing to our <span>Terms and Services</span></h3>       
+                <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
             </div>
         </div>
     </div>
